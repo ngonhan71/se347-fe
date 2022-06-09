@@ -135,7 +135,7 @@ function AccountProfile() {
         )}
       </div>
 
-      <button type="submit" className={`bookstore-btn ${styles.submitBtn}`}
+      <button type="submit" className={`shophoa-btn ${styles.submitBtn}`}
         disabled={formik.errors.fullName || formik.errors.phoneNumber || formik.errors.birthday}
       >
         Cập nhật

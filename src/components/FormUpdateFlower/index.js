@@ -183,7 +183,7 @@ function FormUpdateFlower() {
       <Col xl={12}>
         <Card>
           <Card.Header className={styles.title}>
-            Cập nhật sách thông tin sách
+            Cập nhật sách thông tin hoa
           </Card.Header>
           <Card.Body>
             <form onSubmit={formik.handleSubmit}>
@@ -388,7 +388,7 @@ function FormUpdateFlower() {
               <div>
                 <button
                   type="button"
-                  className={`bookstore-btn ${styles.updateImage}`}
+                  className={`shophoa-btn ${styles.updateImage}`}
                   onClick={() => setUpdateImage(!updateImage)}
                 >
                   Thay đổi hình ảnh
@@ -434,7 +434,7 @@ function FormUpdateFlower() {
 
               <button
                 type="submit"
-                className={`bookstore-btn ${styles.submitBtn}`}
+                className={`shophoa-btn ${styles.submitBtn}`}
               >
                 Lưu thay đổi
               </button>

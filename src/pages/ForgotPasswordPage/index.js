@@ -51,7 +51,7 @@ function ForgotPasswordPage() {
                   <Spinner style={{margin: '0 auto'}} animation="border" variant="success" />
               </div>
               )}
-              <button className={`bookstore-btn ${styles.submitBtn}`}>
+              <button className={`shophoa-btn ${styles.submitBtn}`}>
                 Gửi
               </button>
             </form>

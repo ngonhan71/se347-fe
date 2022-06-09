@@ -376,7 +376,7 @@ function FormAddFlower() {
               </Row>
 
               <div className="d-flex-center">
-                <button type="submit" className={`bookstore-btn ${styles.submitBtn}`}>
+                <button type="submit" className={`shophoa-btn ${styles.submitBtn}`}>
                   Thêm hoa
                 </button>
                 {loading && <Spinner style={{ marginLeft: "20px" }} animation="border" variant="success" />}

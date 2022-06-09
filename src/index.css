@@ -18,7 +18,7 @@ code {
     monospace;
 }
 
-.bookstore-btn {
+.shophoa-btn {
   color: black;
   background-color: transparent;
   font-size: 20px;
@@ -30,11 +30,11 @@ code {
   position: relative;
 }
 
-.bookstore-btn:hover {
+.shophoa-btn:hover {
   opacity: 0.9;
 }
 
-.bookstore-btn.disabled, .bookstore-btn:disabled{
+.shophoa-btn.disabled, .shophoa-btn:disabled{
   pointer-events: none;
   opacity: .65;
 }

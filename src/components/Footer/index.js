@@ -53,12 +53,12 @@ function Footer() {
               <p>Đăng ký để nhận được được thông tin mới nhất từ chúng tôi.</p>
               <div className={`form-group ${styles.formGroup}`}>
                 <input type="text" className="form-control" placeholder="Email..." />
-                <button className={`bookstore-btn ${styles.subscribeBtn}`}><IoPaperPlane /></button>
+                <button className={`shophoa-btn ${styles.subscribeBtn}`}><IoPaperPlane /></button>
               </div>
               <div className={styles.boxSocial}>
-                <button className={`bookstore-btn ${styles.bookstoreBtn}`}><IoLogoFacebook /></button>
-                <button className={`bookstore-btn ${styles.bookstoreBtn}`}><IoLogoYoutube /></button>
-                <button className={`bookstore-btn ${styles.bookstoreBtn}`}><IoLogoInstagram /></button>
+                <button className={`shophoa-btn ${styles.shophoaBtn}`}><IoLogoFacebook /></button>
+                <button className={`shophoa-btn ${styles.shophoaBtn}`}><IoLogoYoutube /></button>
+                <button className={`shophoa-btn ${styles.shophoaBtn}`}><IoLogoInstagram /></button>
               </div>
             </div>
           </Col>

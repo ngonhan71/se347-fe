@@ -105,7 +105,7 @@ function LoginPage() {
                 />
               </div>
               <Link className={styles.forgotPassword} to="/quen-mat-khau">Quên mật khẩu?</Link>
-              <button className={`bookstore-btn ${styles.submitBtn}`}>Đăng nhập</button>
+              <button className={`shophoa-btn ${styles.submitBtn}`}>Đăng nhập</button>
             </form>
             <p style={{textAlign: 'center'}}>
               Bạn chưa có tài khoản? <Link to="/dang-ki" style={{color: '#0074da'}}>Đăng ký tại đây</Link>
@@ -116,7 +116,7 @@ function LoginPage() {
               <div className={styles.boxLoginThirdParty}>
                 <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-icon-png-transparent-background-osteopathy-16.png" alt="" />
                 <OAuth2Login  
-                    className="bookstore-btn"
+                    className="shophoa-btn"
                     buttonText="Login with Google"
                     authorizationUrl="https://accounts.google.com/o/oauth2/auth"
                     responseType="token"
@@ -131,7 +131,7 @@ function LoginPage() {
               <div className={styles.boxLoginThirdParty}>
                 <img src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688_1280.png" alt="" />
                 <OAuth2Login
-                  className="bookstore-btn"
+                  className="shophoa-btn"
                   buttonText="Login with Facebook"
                   authorizationUrl="https://www.facebook.com/dialog/oauth"
                   responseType="token"

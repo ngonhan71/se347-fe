@@ -21,7 +21,7 @@ function SearchForm() {
   return (
     <form onSubmit={handleSubmitSearch}>
       <div className={styles.searchWrapper}>
-        <button className={`bookstore-btn ${styles.searchBtn}`}>
+        <button className={`shophoa-btn ${styles.searchBtn}`}>
           <BsSearch />
         </button>
         <div className="form-group">

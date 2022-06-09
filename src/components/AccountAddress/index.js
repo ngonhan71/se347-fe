@@ -151,7 +151,7 @@ function AccountAddress() {
                     <td>{index}</td>
                     <td>
                       {item.address}{" "} {item.isDefault ? (
-                        <button className={`bookstore-btn ${styles.btnCheck}`}>
+                        <button className={`shophoa-btn ${styles.btnCheck}`}>
                           <FaCheckCircle />
                         </button>
                       ) : ("")}
@@ -210,7 +210,7 @@ function AccountAddress() {
             />
           </div>
           <button
-            className={`bookstore-btn ${styles.submitBtn}`}
+            className={`shophoa-btn ${styles.submitBtn}`}
             data-id={updateAddress.addressId}
           >
             Xác nhận
@@ -219,7 +219,7 @@ function AccountAddress() {
       )}
 
       <button
-        className={`bookstore-btn ${styles.addAddressBtn}`}
+        className={`shophoa-btn ${styles.addAddressBtn}`}
         onClick={handleShowAddForm}
       >
         {showAddForm ? "Hủy thêm" : "Thêm địa chỉ"}
@@ -228,7 +228,7 @@ function AccountAddress() {
       {showAddForm && (
         <form onSubmit={handleSubmitAddNewAddress}>
           <AddressSelect onChangeAddress={handleGetAddress} />
-          <button className={`bookstore-btn ${styles.submitBtn}`}>
+          <button className={`shophoa-btn ${styles.submitBtn}`}>
             Xác nhận
           </button>
         </form>

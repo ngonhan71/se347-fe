@@ -1,3 +1,74 @@
+#  Website cửa hàng bán hoa
+
+## GIẢNG VIÊN HƯỚNG DẪN
+*  **ThS. Trần Anh Dũng** 
+
+## Sinh viên thực hiện
+- Ngô Hữu Nhân - 19520800
+
+## Mục lục
+
+- [Công nghệ](#công-nghệ-sử-dụng)
+- [Chức năng](#chức-năng)
+
+
+## Công nghệ sử dụng
+
+### Frontend
+
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [React JS](https://reactjs.org/)
+
+### Backend
+
+- [Nodejs](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+
+## Chức năng
+
+- Xác thực người dùng
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654761890/se347/Capture_lnfxz1.png)
+    - Đăng nhập
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654761890/se347/Capture_lnfxz1.png)
+    - Đăng nhập với Google
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762087/se347/Capture4_jhi560.png)
+    - Đăng nhập với Facebook
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762466/se347/Capture2_ey8ult.png)
+
+- Trang chủ, lọc sản phẩm, chi tiết sản phẩm:
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762647/se347/Capture3_zqdbak.png)
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762655/se347/Capture5_ggzrnk.png)
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762654/se347/Capture6_tbqewx.png)
+
+- Chức năng giỏ hàng, đặt hàng
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762813/se347/Capture7_rlj1zc.png)
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762810/se347/Capture8_ofhbeg.png)
+
+- Trang thông tin người dùng
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762976/se347/Capture11_zdc5tv.png)
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762976/se347/Capture12_tvtvji.png)
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762977/se347/Capture13_cjhhu6.png)
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654763058/se347/Capture14_zjuj9v.png)
+
+- Trang thống kê
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654763281/se347/Capture15_adtzkw.png)
+- Trang quản lý hoa
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654763284/se347/Capture16_wk5b6c.png)
+    - Thêm hoa
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654763283/se347/Capture17_noobrk.png)
+    - Cập nhật thông tin
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654763282/se347/Capture18_luh5cf.png)
+
+- Quản lý đơn hàng
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654763448/se347/Capture21_hv8cpu.png)
+    - Chi tiết đơn hàng
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654763448/se347/Capture22_e44zt7.png)
+    - Cập nhật trạng thái đơn hàng
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654763446/se347/Capture23_pabi0x.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

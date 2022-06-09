@@ -29,21 +29,21 @@ function HomePage() {
               <Carousel.Item interval={2000}>
                   <img
                   className={`d-block w-100 ${styles.img}`}
-                  src="https://img.freepik.com/foto-gratis/banner-horizontal-pila-libros-lado-derecho-proyectos-educativos_351987-173.jpg"
+                  src="https://hoayeuthuong.com/cms-images/banner/434445_only-rose.jpg"
                   alt="First slide"
                   />
               </Carousel.Item>
               <Carousel.Item interval={2000}>
                   <img
                   className={`d-block w-100 ${styles.img}`}
-                  src="https://t3.ftcdn.net/jpg/04/27/15/08/360_F_427150821_oQOZiOLP6lnWQdUmUG0YgQiTUsjmaGwE.jpg"
+                  src="https://hoayeuthuong.com/cms-images/banner/434433_63-tinh-thanh.jpg"
                   alt="Second slide"
                   />
               </Carousel.Item>
               <Carousel.Item interval={2000}>
                   <img
                   className={`d-block w-100 ${styles.img}`}
-                  src="http://images6.fanpop.com/image/photos/40600000/Book-Banner-Header-booknerd-40619463-950-323.jpg"
+                  src="https://hoayeuthuong.com/cms-images/banner/434408_giao-hang-nhanh-60p.jpg"
                   alt="Third slide"
                   />
               </Carousel.Item>

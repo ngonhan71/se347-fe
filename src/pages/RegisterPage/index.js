@@ -177,7 +177,7 @@ export default function RegisterPage() {
                   </div>
                 </>
               )}
-              <button className={`bookstore-btn ${styles.submitBtn}`}>
+              <button className={`shophoa-btn ${styles.submitBtn}`}>
                 Tiếp tục
               </button>
             </form>
@@ -239,7 +239,7 @@ export default function RegisterPage() {
                   </Form.Control.Feedback>
                 )}
               </div>
-              <button className={`bookstore-btn ${styles.submitBtn}`}>
+              <button className={`shophoa-btn ${styles.submitBtn}`}>
                 Đăng ký
               </button>
             </form>
@@ -252,7 +252,7 @@ export default function RegisterPage() {
                 alt=""
               />
               <OAuth2Login
-                className="bookstore-btn"
+                className="shophoa-btn"
                 buttonText="Login with Google"
                 authorizationUrl="https://accounts.google.com/o/oauth2/auth"
                 responseType="token"
@@ -270,7 +270,7 @@ export default function RegisterPage() {
                 alt=""
               />
               <OAuth2Login
-                className="bookstore-btn"
+                className="shophoa-btn"
                 buttonText="Login with Facebook"
                 authorizationUrl="https://www.facebook.com/dialog/oauth"
                 responseType="token"
