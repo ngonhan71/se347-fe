@@ -1,0 +1,20 @@
+.row {
+    margin: 0;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.name {
+    width: 450px;
+}
+
+.flowerList {
+    padding: 10px;
+}
+
+.flowerList table {
+    text-align: center;
+}
