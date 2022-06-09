@@ -33,7 +33,7 @@
     - Đăng nhập
     ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654761890/se347/Capture_lnfxz1.png)
     - Đăng nhập với Google
-    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762087/se347/Capture4_jhi560.png)
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654764281/se347/Capture30_fttffk.png)
     - Đăng nhập với Facebook
     ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762466/se347/Capture2_ey8ult.png)
 
