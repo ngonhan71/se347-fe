@@ -17,11 +17,14 @@ function FlowerList() {
 
   const [showModal, setShowModal] = useState(false);
 
+  const [search, setSearch] = useState("")
+  const [keySearch, setKeySearch] = useState("")
+
   useEffect(() => {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const res = await flowerApi.getAll({ page: page, limit: 10, sortByDate: "desc" });
+        const res = await flowerApi.getAll({ page: page, limit: 10, sortByDate: "desc", key: keySearch });
         setLoading(false);
         setFlowerData({ flowers: res.data, totalPage: res.pagination.totalPage });
       } catch (error) {
@@ -30,7 +33,7 @@ function FlowerList() {
       }
     };
     fetchData();
-  }, [page]);
+  }, [page, keySearch]);
 
   const handleClickDeleteFlower = (e) => {
     setFlowerDelete({
@@ -82,6 +85,24 @@ function FlowerList() {
         <Card>
           <Card.Header className={styles.title}>Danh sách sản phẩm</Card.Header>
           <Card.Body className={styles.flowerList}>
+            <div className="d-flex mb-2">
+              <input 
+                className={`form-control ${styles.inputSearch}`}
+                placeholder="Tìm kiếm" 
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+              />
+              <button 
+                type="button" 
+                className="btn btn-primary" 
+                onClick={() => {
+                  setKeySearch(search)
+                  setPage(1)
+                }}
+                >
+                  Tìm kiếm
+              </button>
+            </div>
             <Table striped bordered hover>
               <thead>
                 <tr>

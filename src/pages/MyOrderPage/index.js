@@ -26,6 +26,7 @@ function MyOrderPage() {
           userId: currentUser.userId,
           page: page,
           limit: 10,
+          sortByDate: "desc"
         });
         setLoading(false);
         setOrderData({ orders: res.data, totalPage: res.pagination.totalPage });

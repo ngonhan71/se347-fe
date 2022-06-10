@@ -106,7 +106,6 @@ function DashboardPage() {
 
   return (
     <div className={styles.wrapperDashboard}>
-      <h1>Chào mừng đến trang quản lý</h1>
       <Row>
         <Col xl={8}>
           {revenueLifeTimeDataChart && revenueLifeTimeDataChart.datasets && (

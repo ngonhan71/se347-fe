@@ -1,10 +1,24 @@
-#  Website cửa hàng bán hoa
+<p align="center">
+  <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" style="border: 5;">
+    <img src="https://i.imgur.com/WmMnSRt.png" alt="Trường Đại học Công nghệ Thông tin | University of Information Technology">
+  </a>
+</p>
+
+<!-- Title -->
+<h1 align="center"><b>SE347.M21 - Công nghệ Web và ứng dụng</b></h1>
+
+## ĐỒ ÁN MÔN HỌC
+### Tên đồ án: Xây dựng Website cửa hàng bán hoa
 
 ## GIẢNG VIÊN HƯỚNG DẪN
-*  **ThS. Trần Anh Dũng** 
+### **ThS. Trần Anh Dũng** 
 
 ## Sinh viên thực hiện
-- Ngô Hữu Nhân - 19520800
+- Trần Khánh Quang Bảo  - 19521259
+- Ngô Hữu Nhân          - 19520800
+- Dương Hoài Nam        - 19521868
+- Nguyễn Duy Minh       - 17520755
+- Nguyễn Văn Dương      - 18520211
 
 ## Mục lục
 
@@ -41,6 +55,8 @@
     ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762647/se347/Capture3_zqdbak.png)
     ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762655/se347/Capture5_ggzrnk.png)
     ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762654/se347/Capture6_tbqewx.png)
+- Tìm kiếm sản phẩm
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654837185/se347/Capture5_eswnah.png)
 
 - Chức năng giỏ hàng, đặt hàng
     ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762813/se347/Capture7_rlj1zc.png)
@@ -49,20 +65,21 @@
 - Trang thông tin người dùng
     ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762976/se347/Capture11_zdc5tv.png)
     ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762976/se347/Capture12_tvtvji.png)
-    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654762977/se347/Capture13_cjhhu6.png)
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654836992/se347/Capture1_qsdlui.png)
     ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654763058/se347/Capture14_zjuj9v.png)
 
 - Trang thống kê
     ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654763281/se347/Capture15_adtzkw.png)
 - Trang quản lý hoa
-    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654763284/se347/Capture16_wk5b6c.png)
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654836994/se347/Capture3_yxqfrq.png)
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654836992/se347/Capture2_fpaszp.png)
     - Thêm hoa
     ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654763283/se347/Capture17_noobrk.png)
     - Cập nhật thông tin
     ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654763282/se347/Capture18_luh5cf.png)
 
 - Quản lý đơn hàng
-    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654763448/se347/Capture21_hv8cpu.png)
+    ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654836993/se347/Capture4_nwz4de.png)
     - Chi tiết đơn hàng
     ![](https://res.cloudinary.com/dbynglvwk/image/upload/v1654763448/se347/Capture22_e44zt7.png)
     - Cập nhật trạng thái đơn hàng

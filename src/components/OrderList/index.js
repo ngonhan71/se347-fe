@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import PaginationShopHoa from "../PaginationShopHoa";
-
+import { FaCheckCircle } from "react-icons/fa";
 import { Row, Col, Card, Table, Spinner, Modal } from "react-bootstrap";
 import orderApi from "../../api/orderApi";
 import format from "../../helper/format";
@@ -71,7 +71,7 @@ function OrderList() {
   const handleChangeStatus = (e) => {
     const index = e.target.selectedIndex;
     setStatus({
-      key: e.target.value,
+      key: parseInt(e.target.value),
       text: e.target[index].text
     });
   }
@@ -87,6 +87,25 @@ function OrderList() {
           status: status
         }
       }) 
+      setOrderData(pre => {
+        const newArray = [...pre.orders];
+        console.log({
+          ...pre,
+          orders: newArray.map((item) => {
+            return item._id === orderDetail._id
+              ? { ...item, status: status }
+              : item;
+          })
+        })
+        return {
+          ...pre,
+          orders: newArray.map((item) => {
+            return item._id === orderDetail._id
+              ? { ...item, status: status }
+              : item;
+          })
+        }
+      })
       alert("Cập nhật thành công!")
     } catch (error) {
       alert("Cập nhật thất bại!")
@@ -187,10 +206,11 @@ function OrderList() {
         <Card>
           <Card.Header className={styles.title}>Danh sách đơn hàng</Card.Header>
           <Card.Body className={styles.orderList}>
-            <Table striped bordered hover>
+            <Table striped bordered hover style={{fontSize: 14}}>
               <thead>
                 <tr>
                   <th>STT</th>
+                  <th>Tình trạng</th>
                   <th>Người đặt</th>
                   <th>Người nhận</th>
                   <th>Địa chỉ</th>
@@ -212,6 +232,11 @@ function OrderList() {
                     return (
                       <tr key={item._id}>
                         <td>{(1 && page - 1) * 10 + (index + 1)}</td>
+                        <td>{item.status.text} {item.status.key === 3 && 
+                          <button className={`shophoa-btn ${styles.btnCheck}`}>
+                            < FaCheckCircle />
+                          </button>}
+                      </td>
                         <td>{item.fullName} - {item.phoneNumber} -{item.email}</td>
                         <td>
                           {item.receiverInfo.fullName} -{" "}

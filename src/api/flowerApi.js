@@ -2,9 +2,9 @@ import axiosClient from "./axiosClient"
 
 const flowerApi = {
 
-    getAll: ({occasion, page = 1, limit, sortByPrice, sortByDate}) => {
+    getAll: ({occasion, page = 1, limit, sortByPrice, sortByDate, key}) => {
         const url = 'flowers/'
-        return axiosClient.get(url, { params: {occasion, page, limit, sortByPrice, sortByDate}})
+        return axiosClient.get(url, { params: {occasion, page, limit, sortByPrice, sortByDate, key}})
     },
     getById: (id) => {
         const url = `flowers/${id}`
